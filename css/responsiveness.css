@@ -1,0 +1,65 @@
+
+@media only screen and (max-width: 600px) {
+    .heading{
+        height: 50vh;
+        width: auto;
+    }
+    .inner{
+        display: block;
+        position: absolute;
+        padding-top: 10%;
+        font-size: 1em;
+        text-align: center;
+        margin-left: 5%;
+        height: 100%;
+    }
+    
+    .inner h1 {
+        font-size: 2em !important;
+       margin-top: 20%;
+
+    }
+
+    .btn{
+        /* background-color: rgb(225, 121, 138); */
+        border: 3px solid rgb(244, 94, 119);
+        color: #fff;
+        margin: 0;
+        margin-right: 10px;
+    }
+    .resp{
+        margin-bottom: 50px !important;
+    }
+    .remove-pt{
+        padding-top: 0px !important;
+    }
+    .remove-margin{
+        margin-bottom: 20px !important;
+    }
+    #just-this{
+        margin-bottom: 0 !important;
+    }
+}
+/* ----------- tablet screen -------------- */
+@media only screen and (max-width: 764px) {
+    .heading{
+        height: 50vh;
+        width: auto;
+    }
+    .inner{
+        display: block;
+        position: absolute;
+        padding-top: 10%;
+        margin-left: 5%;
+        font-size: 1em;
+        text-align: center;
+        height: 100%;
+    }
+    
+    .inner h1 {
+        /* font-size: 1.5em !important; */
+       margin-top: 20%;
+
+    }
+
+}
